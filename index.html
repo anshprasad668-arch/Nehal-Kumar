@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nehal Kumar | Class 12th Student &amp; Aspiring Army Para SF | Saran, Bihar</title>
+  <meta name="description" content="Official personal website of Nehal Kumar - Class 12th student at Vedh Narayan High School, ADCA Computer Diploma holder, and aspiring Army Para SF officer from Garkha, Saran, Bihar.">
+  <meta property="og:title" content="Nehal Kumar - Student &amp; Army Para SF Aspirant">
+  <meta property="og:description" content="Personal website of Nehal Kumar. Class 12th Vedh Narayan High School, ADCA degree holder &amp; Para SF aspirant.">
+  <meta property="og:image" content="img-186cf42d.jpg">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Rajdhani:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- IMAGE EDITING: Change any img src="...jpg" below to the filename of your replacement image. Keep the image file in this same folder. -->
+
+  <!-- ENTRY LANGUAGE SELECTION MODAL -->
+  <div id="language-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-badge">
+        <img src="nehal1.jpg" alt="Nehal Kumar Logo" class="modal-logo">
+      </div>
+      <h2 data-en="Welcome to Nehal Kumar's Website" data-hi="नेहल कुमार की वेबसाइट में आपका स्वागत है">Welcome to Nehal Kumar's Website</h2>
+      <p class="modal-subtitle" data-en="How would you like to start exploring this website?" data-hi="आप इस वेबसाइट की शुरुआत किस भाषा में करना चाहते हैं?">How would you like to start exploring this website?</p>
+      
+      <div class="lang-choice-container">
+        <button id="btn-choose-en" class="btn btn-primary lang-btn-option">
+          <span class="flag-icon">🇬🇧</span> English
+          <small data-en="Continue in English" data-hi="अंग्रेजी में आगे बढ़ें">Continue in English</small>
+        </button>
+        <button id="btn-choose-hi" class="btn btn-secondary lang-btn-option">
+          <span class="flag-icon">🇮🇳</span> हिन्दी (Hindi)
+          <small data-en="हिन्दी में पढ़ें" data-hi="हिन्दी भाषा चुनें">हिन्दी में पढ़ें</small>
+        </button>
+      </div>
+      
+      <div class="modal-footer-note">
+        <span class="device-pill">📱 Mobile &amp; 💻 Desktop Friendly</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="nehal1.jpg" alt="Nehal Kumar Logo" class="nav-logo-img">
+        <div class="brand-text">
+          <span class="brand-name">NEHAL KUMAR</span>
+          <span class="brand-sub" data-en="Vedh Narayan High School" data-hi="वेध नारायण हाई स्कूल">Vedh Narayan High School</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="nav-menu">
+        <a href="index.html" class="active" data-en="Home" data-hi="होम">Home</a>
+        <a href="about.html" data-en="About Me" data-hi="मेरे बारे में">About Me</a>
+        <a href="contact.html" data-en="Contact" data-hi="संपर्क करें">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher Button -->
+        <button id="lang-toggle-btn" class="lang-toggle" title="Switch Language / भाषा बदलें">
+          <span class="lang-code" id="active-lang-code">EN</span>
+          <span class="lang-text" id="active-lang-label">हिन्दी</span>
+        </button>
+
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta" data-en="Get in Touch" data-hi="संपर्क करें">Get in Touch</a>
+
+        <button class="mobile-hamburger" id="mobile-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-gradient"></div>
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badges">
+            <span class="badge badge-school" data-en="🎓 Class 12th Student @ Vedh Narayan HS" data-hi="🎓 कक्षा 12वीं - वेध नारायण हाई स्कूल">🎓 Class 12th Student @ Vedh Narayan HS</span>
+            <span class="badge badge-cert" data-en="💻 ADCA Computer Certified" data-hi="💻 ADCA कंप्यूटर डिप्लोमा होल्डर">💻 ADCA Computer Certified</span>
+          </div>
+
+          <h1 class="hero-title" data-en="Hi, I am Nehal Kumar" data-hi="नमस्ते, मैं हूँ नेहल कुमार">Hi, I am Nehal Kumar</h1>
+          <h2 class="hero-subtitle" data-en="Driven by Tech &amp; Aiming for the Indian Army Para SF" data-hi="तकनीकी ज्ञान और भारतीय सेना पैरा SF का सपना">Driven by Tech &amp; Aiming for the Indian Army Para SF</h2>
+
+          <p class="hero-desc" data-en="Welcome to my official website. I am a 12th class student at Vedh Narayan High School, Garkha (Saran, Bihar). With an ADCA diploma in computer applications and an unwavering ambition to serve our nation in the Indian Army Special Forces, I build my future with discipline, code, and dedication." data-hi="मेरी आधिकारिक वेबसाइट पर आपका स्वागत है। मैं वेध नारायण हाई स्कूल, गरखा (सारण, बिहार) का 12वीं का छात्र हूँ। कंप्यूटर एप्लीकेशन में ADCA डिप्लोमा और भारतीय सेना पैरा स्पेशल फोर्सेस (Para SF) में देश की सेवा करने के अटूट लक्ष्य के साथ, मैं अनुशासन और कड़ी मेहनत से अपना भविष्य बना रहा हूँ।">Welcome to my official website. I am a 12th class student at Vedh Narayan High School, Garkha (Saran, Bihar). With an ADCA diploma in computer applications and an unwavering ambition to serve our nation in the Indian Army Special Forces, I build my future with discipline, code, and dedication.</p>
+
+          <div class="hero-cta-group">
+            <a href="about.html" class="btn btn-primary" data-en="Explore My Journey" data-hi="मेरी यात्रा देखें">Explore My Journey</a>
+            <a href="https://wa.me/919162183620" target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path></svg>
+              <span>WhatsApp Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Stat Strip -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">12th</span>
+              <span class="stat-label" data-en="Vedh Narayan HS" data-hi="वेध नारायण एच.एस.">Vedh Narayan HS</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">ADCA</span>
+              <span class="stat-label" data-en="Computer Diploma" data-hi="कंप्यूटर डिप्लोमा">Computer Diploma</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">Para SF</span>
+              <span class="stat-label" data-en="Dream &amp; Ambition" data-hi="सपना और लक्ष्य">Dream &amp; Ambition</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-image-frame">
+              <img src="nehal2.jpg" alt="Nehal Kumar Profile Photo" class="profile-img">
+              <div class="profile-glow"></div>
+            </div>
+
+            <!-- Floating Badges on Photo -->
+            <div class="float-card float-top-left">
+              <div class="float-icon">🎖️</div>
+              <div class="float-text">
+                <strong data-en="Army Para SF" data-hi="सेना पैरा SF">Army Para SF</strong>
+                <small data-en="Aspirant" data-hi="महत्वाकांक्षी">Aspirant</small>
+              </div>
+            </div>
+
+            <div class="float-card float-bottom-right">
+              <div class="float-icon">💻</div>
+              <div class="float-text">
+                <strong data-en="ADCA Certified" data-hi="ADCA धारक">ADCA Certified</strong>
+                <small data-en="Computer Branch" data-hi="कंप्यूटर शाखा">Computer Branch</small>
+              </div>
+            </div>
+            
+            <div class="location-tag">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Garkha, Saran, Bihar (841202)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DEVICE RESPONSIVE NOTICE BANNER -->
+    <section class="device-banner">
+      <div class="container device-banner-inner">
+        <div class="device-icon-group">
+          <span class="device-icon">📱</span>
+          <span class="device-icon">💻</span>
+          <span class="device-icon">🖥️</span>
+        </div>
+        <div class="device-text">
+          <strong data-en="100% Mobile &amp; Desktop Friendly Design" data-hi="100% मोबाइल एवं डेस्कटॉप अनुकूल इंटरफ़ेस">100% Mobile &amp; Desktop Friendly Design</strong>
+          <span data-en="Optimized for seamless browsing across all smartphones, tablets, and computers." data-hi="सभी स्मार्टफोन, टैबलेट और कंप्यूटर पर बेहतरीन अनुभव के लिए अनुकूलित।">Optimized for seamless browsing across all smartphones, tablets, and computers.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE PILLARS SECTION -->
+    <section class="section pillars-section" id="pillars">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-en="Who I Am" data-hi="मेरी पहचान">Who I Am</span>
+          <h2 class="section-title" data-en="Key Highlights of My Journey" data-hi="मेरी यात्रा की मुख्य विशेषताएं">Key Highlights of My Journey</h2>
+          <p class="section-desc" data-en="Combining academics, technical skills, and physical readiness for my ultimate defense career." data-hi="शिक्षा, तकनीकी दक्षता और सैन्य करियर की तैयारी का अनोखा संगम।">Combining academics, technical skills, and physical readiness for my ultimate defense career.</p>
+        </div>
+
+        <div class="grid grid-3">
+          
+          <!-- Card 1: Vedh Narayan High School -->
+          <div class="card pillar-card" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="pillar-icon-box icon-school">
+              🎓
+            </div>
+            <h3 class="pillar-title" data-en="Class 12th Student" data-hi="12वीं कक्षा के छात्र">Class 12th Student</h3>
+            <p class="pillar-sub" data-en="Vedh Narayan High School, Saran" data-hi="वेध नारायण हाई स्कूल, सारण">Vedh Narayan High School, Saran</p>
+            <p class="pillar-text" data-en="Currently pursuing my Class 12th education at Vedh Narayan High School in Garkha, Saran, Bihar (PIN 841202). Focus on strong fundamentals, science, and leadership." data-hi="वर्तमान में वेध नारायण हाई स्कूल, गरखा, सारण (बिहार, पिन 841202) से 12वीं की पढ़ाई कर रहा हूँ। विज्ञान, शिक्षा और अनुशासन पर विशेष ध्यान।">Currently pursuing my Class 12th education at Vedh Narayan High School in Garkha, Saran, Bihar (PIN 841202). Focus on strong fundamentals, science, and leadership.</p>
+          </div>
+
+          <!-- Card 2: ADCA Computer Holder -->
+          <div class="card pillar-card" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="pillar-icon-box icon-tech">
+              💻
+            </div>
+            <h3 class="pillar-title" data-en="ADCA Diploma Holder" data-hi="ADCA कंप्यूटर डिप्लोमा">ADCA Diploma Holder</h3>
+            <p class="pillar-sub" data-en="Computer Applications Branch" data-hi="कंप्यूटर एप्लीकेशन शाखा">Computer Applications Branch</p>
+            <p class="pillar-text" data-en="Earned the Advanced Diploma in Computer Applications (ADCA). Skilled in office suites, internet technology, basic software management, and digital operations." data-hi="कंप्यूटर एप्लीकेशन में एडवांस डिप्लोमा (ADCA) प्राप्त किया। एमएस ऑफिस, इंटरनेट टेक्नोलॉजी और डिजिटल कंप्यूटर ऑपरेशन में कुशल।">Earned the Advanced Diploma in Computer Applications (ADCA). Skilled in office suites, internet technology, basic software management, and digital operations.</p>
+          </div>
+
+          <!-- Card 3: Army Para SF Dream -->
+          <div class="card pillar-card pillar-army" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="pillar-icon-box icon-army">
+              🗡️
+            </div>
+            <h3 class="pillar-title" data-en="Dream: Army Para SF" data-hi="सपना: भारतीय सेना पैरा SF">Dream: Army Para SF</h3>
+            <p class="pillar-sub" data-en="Special Forces &amp; Maritime Aspirant" data-hi="विशेष बल एवं मरीन नेवी उम्मीदवार">Special Forces &amp; Maritime Aspirant</p>
+            <p class="pillar-text" data-en="My ultimate ambition is to join the elite Indian Army Para SF (Special Forces). Dedicated to rigorous physical training, endurance, and serving the motherland." data-hi="मेरा परम सपना भारतीय सेना के प्रतिष्ठित पैरा SF (स्पेशल फोर्सेज) में शामिल होना है। शारीरिक फिटनेस और देश सेवा के प्रति समर्पित।">My ultimate ambition is to join the elite Indian Army Para SF (Special Forces). Dedicated to rigorous physical training, endurance, and serving the motherland.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ARMY PARA SF FEATURED BANNER -->
+    <section class="section army-feature-section" id="army-dream">
+      <div class="container">
+        <div class="army-card">
+          <div class="army-badge-top">
+            <span class="army-tag">🇮🇳 INDIAN ARMY PARA SF ASPIRANT</span>
+          </div>
+
+          <div class="army-grid">
+            <div class="army-content">
+              <h2 class="army-heading" data-en="Men Apart, Every Inch A Soldier" data-hi="अनुशासन, साहस और सर्वोच्च देशभक्ति">Men Apart, Every Inch A Soldier</h2>
+              <p class="army-text" data-en="The maroon beret and the Balidaan Badge represent the pinnacle of courage, discipline, and commitment. As a young student from Bihar, I am training daily to earn the honor of joining India's most formidable special forces unit." data-hi="महान बलिदान और साहस का प्रतीक - पैरा SF। बिहार का एक युवा होने के नाते, मेरा लक्ष्य भारत के सबसे पराक्रमी विशेष बल यूनिट में शामिल होकर तिरंगे का मान बढ़ाना है।">The maroon beret and the Balidaan Badge represent the pinnacle of courage, discipline, and commitment. As a young student from Bihar, I am training daily to earn the honor of joining India's most formidable special forces unit.</p>
+
+              <div class="army-features-list">
+                <div class="army-feat">
+                  <span class="feat-bullet">⚡</span>
+                  <div>
+                    <strong data-en="Physical Endurance &amp; Agility" data-hi="शारीरिक सहनशक्ति एवं ट्रेनिंग">Physical Endurance &amp; Agility</strong>
+                    <p data-en="Consistent morning running, strength workouts, and mental toughness drills." data-hi="दैनिक दौड़, शारीरिक व्यायाम और मानसिक दृढ़ता की तैयारी।">Consistent morning running, strength workouts, and mental toughness drills.</p>
+                  </div>
+                </div>
+
+                <div class="army-feat">
+                  <span class="feat-bullet">🛡️</span>
+                  <div>
+                    <strong data-en="Maritime &amp; Special Ops Aspirations" data-hi="मैरीटाइम एवं विशेष ऑपरेशन क्षमता">Maritime &amp; Special Ops Aspirations</strong>
+                    <p data-en="Passionate about tactical maneuvers, water operations, and defense strategy." data-hi="रणनीतिक कौशल, वाटर ऑपरेशन्स और रक्षा रणनीति में विशेष रुचि।">Passionate about tactical maneuvers, water operations, and defense strategy.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="army-action">
+                <a href="about.html#para-sf" class="btn btn-gold" data-en="Read About My Defense Vision" data-hi="मेरे लक्ष्य के बारे में पढ़ें">Read About My Defense Vision</a>
+              </div>
+            </div>
+
+            <div class="army-graphics">
+              <div class="army-insignia-box">
+                <div class="wings-graphic">
+                  <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 2L3 9l9 13 9-13-9-7z"></path>
+                    <path d="M12 2v20"></path>
+                    <path d="M3 9h18"></path>
+                  </svg>
+                </div>
+                <div class="army-motto">
+                  <span>BALIDAAN</span>
+                  <small>SPECIAL FORCES</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADCA & SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-en="Technical Education" data-hi="तकनीकी शिक्षा">Technical Education</span>
+          <h2 class="section-title" data-en="ADCA Computer Branch Qualifications" data-hi="ADCA कंप्यूटर शाखा योग्यताएं">ADCA Computer Branch Qualifications</h2>
+          <p class="section-desc" data-en="Advanced Diploma in Computer Applications equips me with modern IT and digital tools." data-hi="एडवांस डिप्लोमा इन कंप्यूटर एप्लीकेशन से प्राप्त तकनीकी दक्षता।">Advanced Diploma in Computer Applications equips me with modern IT and digital tools.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <div class="skill-card" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="skill-icon">📊</div>
+            <h4 data-en="MS Office Suite" data-hi="एमएस ऑफिस सूट्स">MS Office Suite</h4>
+            <p data-en="Word document design, Excel data analysis, PowerPoint presentations." data-hi="वर्ड डॉक्यूमेंट, एक्सेल डेटा और पावरपॉइंट प्रेजेंटेशन।">Word document design, Excel data analysis, PowerPoint presentations.</p>
+          </div>
+
+          <div class="skill-card" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="skill-icon">🌐</div>
+            <h4 data-en="Internet &amp; Web Basics" data-hi="इंटरनेट एवं वेब नॉलेज">Internet &amp; Web Basics</h4>
+            <p data-en="Web navigation, email communication, online research &amp; system utilities." data-hi="वेब सर्फिंग, ईमेल संचार, ऑनलाइन रिसर्च और यूटिलिटी।">Web navigation, email communication, online research &amp; system utilities.</p>
+          </div>
+
+          <div class="skill-card" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="skill-icon">🖥️</div>
+            <h4 data-en="Operating Systems" data-hi="ऑपरेटिंग सिस्टम">Operating Systems</h4>
+            <p data-en="Windows configuration, file management, system security basics." data-hi="विंडोज कॉन्फ़िगरेशन, फाइल प्रबंधन और सिस्टम सुरक्षा।">Windows configuration, file management, system security basics.</p>
+          </div>
+
+          <div class="skill-card" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="skill-icon">🎨</div>
+            <h4 data-en="Digital &amp; Media Tools" data-hi="डिजिटल एवं मीडिया टूल्स">Digital &amp; Media Tools</h4>
+            <p data-en="Basic image formatting, document scanning, digital publishing." data-hi="इमेज फॉर्मेटिंग, स्कैनिंग और डिजिटल कंटेंट क्रिएशन।">Basic image formatting, document scanning, digital publishing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY PREVIEW -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag" data-en="Photo Gallery" data-hi="फोटो गैलरी">Photo Gallery</span>
+          <h2 class="section-title" data-en="Snapshots &amp; Personal Gallery" data-hi="मेरी तस्वीरें एवं झलकियां">Snapshots &amp; Personal Gallery</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item main-item" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <img src="nehal1.jpg" alt="Nehal Kumar Profile Photo">
+            <div class="gallery-caption">
+              <strong data-en="Nehal Kumar" data-hi="नेहल कुमार">Nehal Kumar</strong>
+              <span data-en="Class 12th Student | Saran, Bihar" data-hi="12वीं कक्षा के छात्र | सारण, बिहार">Class 12th Student | Saran, Bihar</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <img src="nehal2.jpg" alt="Nehal Kumar Activity Photo">
+            <div class="gallery-caption">
+              <strong data-en="Personal Snapshot" data-hi="व्यक्तिगत फोटो">Personal Snapshot</strong>
+              <span data-en="Vedh Narayan High School Student" data-hi="वेध नारायण हाई स्कूल के छात्र">Vedh Narayan High School Student</span>
+            </div>
+          </div>
+
+          <div class="gallery-item logo-showcase" style="opacity: 1; transform: translateY(0px); transition: 0.5s ease-out;">
+            <div class="logo-box-inner">
+              <img src="nehal1.jpg" alt="Nehal Kumar Brand Crest">
+              <h4 data-en="Nehal Kumar Personal Brand" data-hi="नेहल कुमार पर्सनल ब्रांड">Nehal Kumar Personal Brand</h4>
+              <p data-en="Bihar Saran Garkha (Pin 841202)" data-hi="बिहार सारण गरखा (पिन 841202)">Bihar Saran Garkha (Pin 841202)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK CONTACT CTA -->
+    <section class="cta-banner">
+      <div class="container cta-container">
+        <div class="cta-content">
+          <h2 data-en="Want to Connect with Nehal Kumar?" data-hi="नेहल कुमार से संपर्क करना चाहते हैं?">Want to Connect with Nehal Kumar?</h2>
+          <p data-en="Feel free to reach out via WhatsApp, Call, or Email. I am always open to learning, guidance, and networking." data-hi="व्हाट्सएप, फोन या ईमेल के माध्यम से बेझिझक संपर्क करें। मार्गदर्शन और संवाद के लिए सदैव तत्पर।">Feel free to reach out via WhatsApp, Call, or Email. I am always open to learning, guidance, and networking.</p>
+        </div>
+        <div class="cta-buttons">
+          <a href="tel:9162183620" class="btn btn-light">
+            <span>📞 Call 91621 83620</span>
+          </a>
+          <a href="contact.html" class="btn btn-gold" data-en="Send a Message" data-hi="संदेश भेजें">Send a Message</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <img src="nehal1.jpg" alt="Logo" class="footer-logo">
+          <span>Nehal Kumar</span>
+        </div>
+        <p class="footer-desc" data-en="Class 12th Student at Vedh Narayan High School | ADCA Certified | Aspiring Army Para SF Officer." data-hi="वेध नारायण हाई स्कूल 12वीं के छात्र | ADCA सर्टिफाइड | आर्मी पैरा SF उम्मीदवार।">Class 12th Student at Vedh Narayan High School | ADCA Certified | Aspiring Army Para SF Officer.</p>
+        <p class="footer-loc">📍 Garkha, Saran, Bihar - Pin 841202</p>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4 data-en="Quick Links" data-hi="क्विक लिंक्स">Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-en="Home" data-hi="होम">Home</a></li>
+          <li><a href="about.html" data-en="About Me" data-hi="मेरे बारे में">About Me</a></li>
+          <li><a href="contact.html" data-en="Contact" data-hi="संपर्क">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col contact-col">
+        <h4 data-en="Contact Details" data-hi="संपर्क विवरण">Contact Details</h4>
+        <p><strong>Phone:</strong> <a href="tel:9162183620">+91 91621 83620</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/919162183620" target="_blank">+91 91621 83620</a></p>
+        <p><strong>Email:</strong> <a href="mailto:devim982677@gmail.com">devim982677@gmail.com</a></p>
+      </div>
+
+      <div class="footer-col social-col">
+        <h4 data-en="Social Networks" data-hi="सोशल मीडिया">Social Networks</h4>
+        <div class="social-links">
+          <a href="https://www.instagram.com/nehal_kumar7?avpt=bjVuNHM3ejNyNW15" target="_blank" rel="noopener" class="social-btn insta" title="Instagram">
+            Instagram
+          </a>
+          <a href="https://www.facebook.com/share/1R3QveMcco/" target="_blank" rel="noopener" class="social-btn fb" title="Facebook">
+            Facebook
+          </a>
+          <a href="https://youtube.com/@nehalkumar1?si=-DTRlXh6gTQN7hKc" target="_blank" rel="noopener" class="social-btn yt" title="YouTube">
+            YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="year">2026</span> Nehal Kumar. All Rights Reserved.</p>
+        <p class="footer-tagline" data-en="Designed for Mobile &amp; Desktop" data-hi="मोबाइल एवं डेस्कटॉप दोनों के लिए उपयुक्त">Designed for Mobile &amp; Desktop</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body></html>

@@ -1,2 +1,2 @@
 # Nehal-Kumar
-Welcome to the official website of Nehal Kumar, a Class 12 student at Vedh Narayan High School, Garkha, Saran, Bihar. ADCA certified in computer applications, passionate about technology, and aspiring to join the Indian Army Para SF. Explore his journey, education, skills and ambitions.
+A motivated Class 12 student equipped with an Advanced Diploma in Computer Applications (ADCA) combines strong academic foundations with practical, industry-ready technical skills. Currently completing my higher secondary education (Class 12), I am a dedicated and detail-oriented student with a deep passion for technology and digital innovation.
